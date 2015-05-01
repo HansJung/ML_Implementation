@@ -17,6 +17,7 @@ class Fisher_Score:
         '''
         self.Training = Training
         self.List_Training_Key = Training.keys()
+        self.FeatureNum = len(self.Training[self.List_Training_Key[0]][0])
 
     def Compute_each_pair(self):
         All_Class_Fisher_Score = []
@@ -39,11 +40,13 @@ class Fisher_Score:
             All_Class_Fisher_Score.append(Each_Class_Fisher_score)
         return All_Class_Fisher_Score
 
-
-
-
-
-
+    def Fisher_Score(self):
+        # row sum for each score
+        AllClassFisherScore = self.Compute_each_pair()
+        Each_Feature_Score = np.array([float(0)] * self.FeatureNum)
+        for each_class_pair in AllClassFisherScore:
+            Each_Feature_Score += each_class_pair
+        return Each_Feature_Score
 
 if __name__ == "__main__":
     print None
