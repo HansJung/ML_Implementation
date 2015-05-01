@@ -5,6 +5,9 @@
 : Solely for my study to understand the concept deeply 
 
 ## What are in there? 
-: Fisher score 
+* (Done) Fisher score 
+* (on going) Wavelet decomposition (DWT) 
 
-: (on going) Wavelet decomposition (DWT) 
+## Future tasks 
+* Machine Learning in Action 
+* Machine Learning Study by Murphy book 
