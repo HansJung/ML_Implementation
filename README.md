@@ -6,4 +6,5 @@
 
 ## What are in there? 
 : Fisher score 
+
 : (on going) Wavelet decomposition (DWT) 
