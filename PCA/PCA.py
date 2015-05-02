@@ -32,11 +32,14 @@ class Hans_PCA:
 
     def PCA_Transform(self):
         EigVals, EigMat = self.EigMatScatter()
-        print EigVals
-        return np.dot(self.CenterData, EigMat )
+        return np.dot(self.CenterData, EigMat)
 
     def PCA_Explained_Ratio(self):
         EigVals, EigMat = self.EigMatScatter()
         return np.array([x / float(sum(EigVals)) for x in EigVals ], dtype='float32')
+
+    def Dimension_Reduction(self, dim):
+        PCAData = self.PCA_Transform()
+        return PCAData[:,:dim]
 
 

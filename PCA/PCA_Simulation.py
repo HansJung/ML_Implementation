@@ -34,30 +34,18 @@ def Random_Data_Generator(dim, mu1, mu2):
 
 if __name__ == "__main__":
     ''' Random two classes data generated '''
-    dim = 5
+    dim = 4
     Data = Random_Data_Generator(dim, 0, 10)
 
     MyPCA = Hans_PCA(Data)
     pca = PCA(n_components=dim)
     ComPCA = pca.fit_transform(Data)
 
-    print MyPCA.PCA_Explained_Ratio()
-    print pca.explained_variance_ratio_
+    print Data
+    print MyPCA.PCA_Transform()
+    print MyPCA.Dimension_Reduction(2)
 
-    # print pca.fit_transform(Data)
-    plt.figure()
-    plt.plot(Data[:,0],Data[:,1], 'bo')
-    plt.grid()
 
-    PCAData = MyPCA.PCA_Transform()
-    plt.figure()
-    plt.grid()
-    plt.plot(PCAData[:,0], PCAData[:,1], 'bo')
-
-    plt.figure()
-    plt.grid()
-    plt.plot(ComPCA[:,0], ComPCA[:,1], 'bo')
-    plt.show()
 
 
 
