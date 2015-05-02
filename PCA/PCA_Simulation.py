@@ -12,25 +12,52 @@ Comment
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
+from sklearn.decomposition import PCA
+
+from PCA import Hans_PCA
 
 
 ''' Function or Class '''
-
-if __name__ == "__main__":
-    ''' Random two classes data generated '''
+def Random_Data_Generator(dim, mu1, mu2):
     np.random.seed(234234782384239784)
-    # Two classes
-    Mu1 = np.array([0] * 3)
-    COV1 = np.eye(3)
+    Mu1 = np.array([mu1] * dim)
+    COV1 = np.eye(dim)
     # It is common to arrange data in column form
     DataC1 = np.random.multivariate_normal(Mu1, COV1, 20).T
 
-    Mu2 = np.array([0] * 3)
-    COV2 = np.eye(3)
+    Mu2 = np.array([mu2] * dim)
+    COV2 = np.eye(dim)
     DataC2 = np.random.multivariate_normal(Mu2, COV2, 20).T
     Data = np.concatenate([DataC1,DataC2], axis=1)
 
-    print pd.DataFrame(Data)
+    return Data.T
+
+if __name__ == "__main__":
+    ''' Random two classes data generated '''
+    dim = 5
+    Data = Random_Data_Generator(dim, 0, 10)
+
+    MyPCA = Hans_PCA(Data)
+    pca = PCA(n_components=dim)
+    ComPCA = pca.fit_transform(Data)
+
+    print MyPCA.PCA_Explained_Ratio()
+    print pca.explained_variance_ratio_
+
+    # print pca.fit_transform(Data)
+    plt.figure()
+    plt.plot(Data[:,0],Data[:,1], 'bo')
+    plt.grid()
+
+    PCAData = MyPCA.PCA_Transform()
+    plt.figure()
+    plt.grid()
+    plt.plot(PCAData[:,0], PCAData[:,1], 'bo')
+
+    plt.figure()
+    plt.grid()
+    plt.plot(ComPCA[:,0], ComPCA[:,1], 'bo')
+    plt.show()
 
 
 
