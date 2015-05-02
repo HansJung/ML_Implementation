@@ -6,7 +6,8 @@
 
 ## What are in there? 
 * (Done) Fisher score 
-* (on going) Wavelet decomposition (DWT) 
+* (Done) Wavelet decomposition (DWT) 
+* (Done) PCA
 
 ## Future tasks 
 * Machine Learning in Action 
