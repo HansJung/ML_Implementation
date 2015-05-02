@@ -1,5 +1,14 @@
 '''
-Compute the fisher score
+150501
+Goal
+- For given matrix data for each classes, compute the fisher score for each features.
+
+Input
+- Dictionary Matrix (List of List)
+
+Output
+- Fisher score array
+
 '''
 
 from itertools import combinations
@@ -48,5 +57,3 @@ class Fisher_Score:
             Each_Feature_Score += each_class_pair
         return Each_Feature_Score
 
-if __name__ == "__main__":
-    print None
