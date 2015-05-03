@@ -57,3 +57,12 @@ class Fisher_Score:
             Each_Feature_Score += each_class_pair
         return Each_Feature_Score
 
+    def FeatureSelector(self, Num):
+        FeatureScore = self.Fisher_Score()
+        IdxNum = range(len(FeatureScore))
+        idx = np.argsort(FeatureScore)[::-1]
+        # IdxNum = IdxNum[idx]
+        AllData = np.concatenate([x for x in self.Training.values()])
+        OrderAllData = AllData[:,idx]
+        return idx, OrderAllData[:,:Num]
+
