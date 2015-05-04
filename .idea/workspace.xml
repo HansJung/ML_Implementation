@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e534a6af-32a8-42e6-a396-266f074bfd23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kNN/Hans_kNN.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kNN/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kNN/kNN_Simulation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py" afterPath="$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PDFs/PDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PDFs/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kNN/kNN_Simulation.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/kNN/Hans_kNN.py" afterPath="$PROJECT_DIR$/PDFs/PDF.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/kNN/__init__.py" afterPath="$PROJECT_DIR$/PDFs/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fisher_score/Fisher_score_Test.py" afterPath="$PROJECT_DIR$/Fisher_score/Fisher_score_Test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,11 +31,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fisher_Score_Computation.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Fisher_Score_Computation.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.7238374" vertical-offset="0" max-vertical-offset="1825">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1825">
               <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PDFs/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDF.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PDFs/PDF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+              <caret line="67" column="81" selection-start-line="67" selection-start-column="81" selection-end-line="67" selection-end-column="81" />
+              <folding>
+                <element signature="e#139#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Wavelet/Example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57983196" vertical-offset="33" max-vertical-offset="390">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -52,63 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kNN/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hans_kNN.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kNN/Hans_kNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kNN_Simulation.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kNN/kNN_Simulation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="435">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="e#139#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PCA_Simulation.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PCA/PCA_Simulation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="810">
               <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wavelet/Example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wavelet.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wavelet/Wavelet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="5535">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -146,10 +127,11 @@
         <option value="$PROJECT_DIR$/Wavelet/Wavelet.py" />
         <option value="$PROJECT_DIR$/PCA/PCA_Simulation.py" />
         <option value="$PROJECT_DIR$/kNN/kNN_Simulation.py" />
-        <option value="$PROJECT_DIR$/kNN/Hans_kNN.py" />
         <option value="$PROJECT_DIR$/PCA/PCA.py" />
-        <option value="$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py" />
         <option value="$PROJECT_DIR$/Fisher_score/Fisher_score_Test.py" />
+        <option value="$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py" />
+        <option value="$PROJECT_DIR$/PDFs/PDF.py" />
+        <option value="$PROJECT_DIR$/kNN/Hans_kNN.py" />
       </list>
     </option>
   </component>
@@ -213,35 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ML_Implementation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ML_Implementation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PCA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ML_Implementation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ML_Implementation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fisher_score" />
+              <option name="myItemId" value="Wavelet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,25 +214,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Fisher_score_Test">
-    <configuration default="false" name="Extracting_two_element" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simple_function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simple_function/Extracting_two_element.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.PDF">
     <configuration default="false" name="Fisher_score_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,6 +282,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML_Implementation" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCA/PCA.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PDFs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PDFs/PDF.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -473,19 +427,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Extracting_two_element" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Fisher_score_Test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Example" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PCA_Simulation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PCA" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Fisher_score_Test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Example" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PCA_Simulation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PCA" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PDF" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Fisher_score_Test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PCA_Simulation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PCA" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Example" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Extracting_two_element" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PDF" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Fisher_score_Test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PCA_Simulation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PCA" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Example" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +457,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1099" height="697" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -716,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wavelet/Example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="532">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/pywt/multilevel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7275132" vertical-offset="1427" max-vertical-offset="2646">
@@ -754,38 +700,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kNN/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="554">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kNN/Hans_kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PCA/PCA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="298" max-vertical-offset="918">
           <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding>
             <element signature="e#258#276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kNN/kNN_Simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#139#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -810,8 +730,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.7238374" vertical-offset="0" max-vertical-offset="1825">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1825">
           <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDFs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDFs/PDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="67" column="81" selection-start-line="67" selection-start-column="81" selection-end-line="67" selection-end-column="81" />
+          <folding>
+            <element signature="e#139#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wavelet/Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57983196" vertical-offset="33" max-vertical-offset="390">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
           <folding />
         </state>
       </provider>
