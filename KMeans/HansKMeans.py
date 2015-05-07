@@ -41,7 +41,7 @@ class KMeans :
 
     def Cluster(self):
         Cent, ResultDict = self.InitialCluster()
-        for idx in range(5):
+        for idx in range(100):
             PrevCent = Cent
             for idx, key in enumerate(ResultDict):
                 Cent[key] = np.mean(ResultDict[key], axis=0)
@@ -55,6 +55,8 @@ class KMeans :
                     ResultDict[ClusterIdx] = np.vstack([ResultDict[ClusterIdx], datarow])
                 else:
                     pass
+            if np.sqrt(np.sum((Cent - PrevCent) ** 2)) < 0.0000000001:
+                break
 
         return Cent, ResultDict
 
@@ -64,7 +66,7 @@ class KMeans :
     # def Data_A
 
 def Random_Data_Generator(dim, mu1, mu2, mu3):
-    np.random.seed(234234782384239784)
+    np.random.seed(38130)
     Mu1 = np.array([mu1] * dim)
     COV1 = np.eye(dim)
     # It is common to arrange data in column form
@@ -84,7 +86,6 @@ def Random_Data_Generator(dim, mu1, mu2, mu3):
 
 
 if __name__ == "__main__":
-    np.random.seed(10213123)
     Data = Random_Data_Generator(2,0,10,20)
     print Data
     # Data = np.random.rand(1000,2)
