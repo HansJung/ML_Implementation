@@ -15,6 +15,7 @@ import operator
 from scipy.stats import binom
 from scipy.stats import beta
 from scipy.stats import norm
+from scipy.stats import chi2
 from scipy.optimize import minimize
 
 ''' Function or Class '''
