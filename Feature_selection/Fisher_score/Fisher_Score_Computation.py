@@ -66,3 +66,26 @@ class Fisher_Score:
         OrderAllData = AllData[:,idx]
         return idx, OrderAllData[:,:Num]
 
+    def FisherRatio(self):
+        MyFisherOrder = self.FeatureOrder()
+        MyFisherRatio = self.Fisher_Score()
+        SUM = np.sum(MyFisherRatio)
+        NewRatio = np.array([float(x) / SUM for x in MyFisherRatio], dtype='float32')[MyFisherOrder]
+        return NewRatio
+
+    def HowMany(self, Threshold):
+        MyRatio = self.FisherRatio()
+        M = float(0)
+        IDX = 1
+        for x in MyRatio:
+            M += x
+            if M > Threshold:
+                break
+            IDX += 1
+        return IDX
+
+    def FeatureOrder(self):
+        FeatureScore = self.Fisher_Score()
+        idx = np.argsort(FeatureScore)[::-1]
+        return idx
+

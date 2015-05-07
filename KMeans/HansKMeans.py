@@ -55,7 +55,7 @@ class KMeans :
                     ResultDict[ClusterIdx] = np.vstack([ResultDict[ClusterIdx], datarow])
                 else:
                     pass
-            if np.sqrt(np.sum((Cent - PrevCent) ** 2)) < 0.0000000001:
+            if np.sqrt(np.sum((Cent - PrevCent) ** 2)) < 0.0001:
                 break
 
         return Cent, ResultDict
@@ -66,7 +66,7 @@ class KMeans :
     # def Data_A
 
 def Random_Data_Generator(dim, mu1, mu2, mu3):
-    np.random.seed(38130)
+    np.random.seed(567)
     Mu1 = np.array([mu1] * dim)
     COV1 = np.eye(dim)
     # It is common to arrange data in column form
@@ -80,13 +80,14 @@ def Random_Data_Generator(dim, mu1, mu2, mu3):
     COV3 = np.eye(dim)
     DataC3 = np.random.multivariate_normal(Mu3, COV3, 200).T
 
+
     Data = np.concatenate([DataC1,DataC2, DataC3], axis=1)
 
     return Data.T
 
 
 if __name__ == "__main__":
-    Data = Random_Data_Generator(2,0,10,20)
+    Data = Random_Data_Generator(2,-1,0,1)
     print Data
     # Data = np.random.rand(1000,2)
     KM = KMeans(Data,3)
@@ -101,7 +102,7 @@ if __name__ == "__main__":
     plt.plot(Data[:,0], Data[:,1],'bo')
 
     plt.figure()
-    color = ['ro','go','bo']
+    color = ['ro','go','bo','wo']
     for idx, key in enumerate(Cluster):
         plt.title("CLUSTER")
         plt.plot(Cluster[key][:,0], Cluster[key][:,1], color[key])
