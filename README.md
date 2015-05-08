@@ -8,6 +8,8 @@
 * (Done) Fisher score 
 * (Done) Wavelet decomposition (DWT) 
 * (Done) PCA
+* (Done) KMEans
+* (Done) GMM cluster using EM
 
 ## Future tasks 
 * Machine Learning in Action 
