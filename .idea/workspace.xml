@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e534a6af-32a8-42e6-a396-266f074bfd23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EM_GMM/EM_GMM.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NaiveBayes/PimaIndian.csv" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EM_GMM/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KMeans/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NaiveBayes/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EM_GMM/EM_GMM.py" afterPath="$PROJECT_DIR$/EM_GMM/EM_GMM.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_Score_Computation.py" afterPath="$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_Score_Computation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_score_Test.py" afterPath="$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_score_Test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KMeans/HansKMeans.py" afterPath="$PROJECT_DIR$/KMeans/HansKMeans.py" />
@@ -48,22 +48,10 @@
       <file leaf-file-name="PDF.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PDFs/PDF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1700">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1700">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="e#139#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HansKMeans.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KMeans/HansKMeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2242">
-              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-              <folding>
-                <element signature="e#156#174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +82,34 @@
       <file leaf-file-name="EM_GMM.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EM_GMM/EM_GMM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0494186" vertical-offset="1767" max-vertical-offset="2679">
-              <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.06104651" vertical-offset="2734" max-vertical-offset="3439">
+              <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
               <folding>
                 <element signature="e#132#150#0" expanded="true" />
+                <element signature="e#2906#3286#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gmm.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/sklearn/mixture/gmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6720" max-vertical-offset="14420">
+              <caret line="347" column="8" selection-start-line="347" selection-start-column="8" selection-end-line="347" selection-end-column="46" />
+              <folding>
+                <element signature="e#289#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extmath.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/sklearn/utils/extmath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5980" max-vertical-offset="11913">
+              <caret line="328" column="26" selection-start-line="328" selection-start-column="21" selection-end-line="328" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -268,7 +279,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.EM_GMM">
+  <component name="RunManager" selected="Python.HansKMeans">
     <configuration default="false" name="Fisher_score_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -489,8 +500,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.EM_GMM" />
-        <item index="1" class="java.lang.String" itemvalue="Python.HansKMeans" />
+        <item index="0" class="java.lang.String" itemvalue="Python.HansKMeans" />
+        <item index="1" class="java.lang.String" itemvalue="Python.EM_GMM" />
         <item index="2" class="java.lang.String" itemvalue="Python.NaiveBayes" />
         <item index="3" class="java.lang.String" itemvalue="Python.PDF" />
         <item index="4" class="java.lang.String" itemvalue="Python.Fisher_score_Test" />
@@ -521,7 +532,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32561985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32561985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -621,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDFs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33242506" vertical-offset="2773" max-vertical-offset="76905">
@@ -685,16 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PDFs/PDF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2033" max-vertical-offset="2400">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="e#139#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_score_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
@@ -713,10 +706,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PDFs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDFs/PDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="651" max-vertical-offset="1700">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#139#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/sklearn/utils/extmath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5980" max-vertical-offset="11913">
+          <caret line="328" column="26" selection-start-line="328" selection-start-column="21" selection-end-line="328" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19756" max-vertical-offset="40905">
+          <caret line="1334" column="0" selection-start-line="1334" selection-start-column="0" selection-end-line="1334" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/sklearn/mixture/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6720" max-vertical-offset="14420">
+          <caret line="347" column="8" selection-start-line="347" selection-start-column="8" selection-end-line="347" selection-end-column="46" />
+          <folding>
+            <element signature="e#289#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KMeans/HansKMeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2242">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.49579832" vertical-offset="1218" max-vertical-offset="1770">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
           <folding>
             <element signature="e#156#174#0" expanded="true" />
           </folding>
@@ -725,10 +762,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EM_GMM/EM_GMM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0494186" vertical-offset="1767" max-vertical-offset="2679">
-          <caret line="74" column="27" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.06104651" vertical-offset="2734" max-vertical-offset="3439">
+          <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
           <folding>
             <element signature="e#132#150#0" expanded="true" />
+            <element signature="e#2906#3286#0" expanded="false" />
           </folding>
         </state>
       </provider>

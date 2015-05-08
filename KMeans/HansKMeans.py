@@ -66,7 +66,7 @@ class KMeans :
     # def Data_A
 
 def Random_Data_Generator(dim, mu1, mu2, mu3):
-    np.random.seed(567)
+    np.random.seed(19230)
     Mu1 = np.array([mu1] * dim)
     COV1 = np.eye(dim)
     # It is common to arrange data in column form
@@ -87,7 +87,7 @@ def Random_Data_Generator(dim, mu1, mu2, mu3):
 
 
 if __name__ == "__main__":
-    Data = Random_Data_Generator(2,-1,0,1)
+    Data = Random_Data_Generator(2,-0.1,0,0.1)
     print Data
     # Data = np.random.rand(1000,2)
     KM = KMeans(Data,3)
