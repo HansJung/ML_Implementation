@@ -1,5 +1,5 @@
 # ML_Implementation
-(Last update : 20150503) 
+(Last update : 20150508) 
 ## Goal 
 : To construct My own machine learning library 
 : Solely for my study to understand the concept deeply 
