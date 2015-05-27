@@ -32,12 +32,16 @@ class PDF:
         X = np.asarray(X, dtype='float32')
         Dimension = len(X)
         Mu = np.asarray(Mu, dtype='float32')
+        print "myCOV", Cov
         Cov = np.matrix(Cov)
         if Dimension == len(Mu) and (Dimension, Dimension) == Cov.shape:
             det = np.linalg.det(Cov)
             if det == 0:
                 raise NameError("The covariance matrix can't be singular")
+            print "dim",Cov, det
+            print ( math.pow((2*math.pi),float(Dimension)/2) * math.pow(det,1.0/2) )
             norm_const = 1.0/ ( math.pow((2*math.pi),float(Dimension)/2) * math.pow(det,1.0/2) )
+            # print "normConst",norm_const
             X_Mu = np.matrix(X - Mu)
             InvCov = Cov.I
             result = math.pow(math.e, -0.5 * (X_Mu * InvCov * X_Mu.T))

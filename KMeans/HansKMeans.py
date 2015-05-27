@@ -46,15 +46,20 @@ class KMeans :
             for idx, key in enumerate(ResultDict):
                 Cent[key] = np.mean(ResultDict[key], axis=0)
             ResultDict = dict()
-            for idx in range(self.K):
-                ResultDict[idx] = Cent[idx]
+            # for idx in range(self.K):
+            #     ResultDict[idx] = Cent[idx]
 
             for datarow in self.data:
                 ClusterIdx = np.argmin(np.sum((datarow - Cent) ** 2, axis=1))
-                if datarow not in ResultDict[ClusterIdx]:
+                print idx
+                print "datarow", datarow
+                print "Clusteridx", ClusterIdx
+                print Cent
+                print " "
+                if ClusterIdx in ResultDict.keys():
                     ResultDict[ClusterIdx] = np.vstack([ResultDict[ClusterIdx], datarow])
                 else:
-                    pass
+                    ResultDict[ClusterIdx] = datarow
             if np.sqrt(np.sum((Cent - PrevCent) ** 2)) < 0.0001:
                 break
 
@@ -66,7 +71,7 @@ class KMeans :
     # def Data_A
 
 def Random_Data_Generator(dim, mu1, mu2, mu3):
-    np.random.seed(19230)
+    np.random.seed(0)
     Mu1 = np.array([mu1] * dim)
     COV1 = np.eye(dim)
     # It is common to arrange data in column form
@@ -87,19 +92,19 @@ def Random_Data_Generator(dim, mu1, mu2, mu3):
 
 
 if __name__ == "__main__":
-    Data = Random_Data_Generator(2,-0.1,0,0.1)
-    print Data
+    Data = Random_Data_Generator(2,-10,0,10)
     # Data = np.random.rand(1000,2)
     KM = KMeans(Data,3)
     Cent, Cluster =  KM.Cluster()
     InitCent,Initcluster = KM.InitialCluster()
+    print "InitCent", InitCent
 
     # print Cent
     # print ""
     # print Cluster
 
-    plt.figure()
-    plt.plot(Data[:,0], Data[:,1],'bo')
+    # plt.figure()
+    # plt.plot(Data[:,0], Data[:,1],'bo')
 
     plt.figure()
     color = ['ro','go','bo','wo']
