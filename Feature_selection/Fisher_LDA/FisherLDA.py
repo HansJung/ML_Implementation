@@ -11,6 +11,7 @@ Comment
 ''' Library '''
 import numpy as np
 import scipy as sp
+from itertools import combinations
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -62,8 +63,8 @@ class FisherLDA:
         SQRTInverseWithIn = self.SQRTInverseMatrix(WithIn)
 
         TargetMat = (SQRTInverseWithIn).I * Between * (SQRTInverseWithIn).I
-        print TargetMat
-        EigVal, EigMat = np.linalg.eig(TargetMat)
+        # print TargetMat
+        EigVal, EigMat = np.linalg.eigh(TargetMat)
         IDX = np.argsort(EigVal)[::-1]
         EigMat = EigMat[:,IDX]
         return EigMat[:,:self.Num]
@@ -89,7 +90,7 @@ class FisherLDA:
 
 
 def TrainingData(dim, mu1, mu2, Num):
-    np.random.seed(12)
+    np.random.seed(0)
     MyTraining = dict()
     Mu1 = np.array([mu1] * dim)
     COV1 = np.eye(dim)
@@ -106,9 +107,9 @@ def TrainingData(dim, mu1, mu2, Num):
 
 
 def TestData(dim, mu1, mu2, Num):
-    np.random.seed(12)
+    np.random.seed(17249)
     Mu1 = np.array([mu1] * dim)
-    COV1 = np.eye(dim) * 1
+    COV1 = np.eye(dim)
     # It is common to arrange data in column form
     DataC1 = np.random.multivariate_normal(Mu1, COV1, Num).T
 
@@ -122,25 +123,59 @@ def TestData(dim, mu1, mu2, Num):
 
 
 if __name__ == "__main__":
-    Dim = 4
-    Mu1 = -1
-    Mu2 = 1
-    Num = 100
+    Dim = 10
+    Mu1 = -2
+    Mu2 = 2
+    Num = 40
     MyTest = TestData(Dim,Mu1,Mu2,Num)
     MyTraining = TrainingData(Dim, Mu1, Mu2, Num)
     MyLDA = FisherLDA(MyTraining,Dim)
 
     NewTest = MyLDA.LDATransform(MyTest)
 
+    MyTestDict = dict()
+    MyTestDict[0] = MyTest[:Num]
+    MyTestDict[1] = MyTest[Num:]
+
+    NewTestDict = dict()
+    NewTestDict[0] = NewTest[:Num]
+    NewTestDict[1] = NewTest[Num:]
+
+    # MyTestFisher = Fisher_Score(MyTestDict)
+    # NewTestFisher = Fisher_Score(NewTestDict)
+
+    np.set_printoptions(suppress=True)
+
+    #print np.float32(MyTestFisher.Fisher_Score())
+    #print np.float32(NewTestFisher.Fisher_Score())
+
 
     plt.figure()
     plt.grid()
-    plt.plot(MyTest[:Num,0], MyTest[:Num,1], 'ro')
-    plt.plot(MyTest[Num:,0], MyTest[Num:,1], 'bo')
+    plt.title("BEFORE")
+    for RowData in MyTest[:Num]:
+        plt.plot(RowData, 'bo')
+    for RowData in MyTest[Num:]:
+        plt.plot(RowData, 'ro')
 
     plt.figure()
     plt.grid()
-    plt.plot(NewTest[:Num,0], NewTest[:Num,1], 'ro')
-    plt.plot(NewTest[Num:,0], NewTest[Num:,1], 'bo')
+    plt.title("AFTER")
+    for RowData in NewTest[:Num]:
+        plt.plot(RowData, 'bo')
+    for RowData in NewTest[Num:]:
+        plt.plot(RowData, 'ro')
+
+    # for dim in range(Dim):
+    #     plt.plot(MyTest[:Num, dim], 'ro')
+    # for dim in range(Dim):
+    #     plt.plot(MyTest[Num:, dim], 'bo')
+
+    #
+    #
+    # plt.figure()
+    # plt.grid()
+    # plt.plot(NewTest[:Num,0], NewTest[:Num,1], 'ro')
+    # plt.plot(NewTest[Num:,0], NewTest[Num:,1], 'bo')
 
     plt.show()
