@@ -10,6 +10,7 @@ Comment
 
 ''' Library '''
 import numpy as np
+from sklearn import datasets
 ''' Function or Class '''
 
 def tanh(x):
@@ -82,9 +83,17 @@ class NeuralNetwork:
 
 
 if __name__ == "__main__":
-    nn = NeuralNetwork([2,2,1], 'tanh')
-    X = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-    y = np.array([0, 1, 1, 0])
-    nn.fit(X, y)
-    for i in [[0, 0], [0, 1], [1, 0], [1,1]]:
-        print(i,nn.predict(i))
+    # nn = NeuralNetwork([2,2,1], 'tanh')
+    X = datasets.load_iris()['data']
+    Dim = X.shape[1]
+    y = datasets.load_iris()['target']
+
+    X_Train = X[:50,:]
+    X_Test = X[50:, :]
+    y_Train = y[:50]
+    y_Test = y[50:]
+
+    nn = NeuralNetwork([Dim, Dim, 1], 'logistic')
+    nn.fit(X=X_Train, y = y_Train)
+
+
