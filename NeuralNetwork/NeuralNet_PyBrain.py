@@ -51,11 +51,12 @@ if __name__ == "__main__":
 
     NNNetwork = buildNetwork(TrainData.indim, HiddenNum, TrainData.outdim, outclass = SoftmaxLayer)
     trainer = BackpropTrainer( NNNetwork, dataset=TrainData, momentum=0.1, learningrate=0.01 , verbose=True, weightdecay=0.01)
-    trainer.trainEpochs(100)
+    trainer.trainEpochs(10)
     MyAnswer =  trainer.testOnClassData(dataset=TestData)
+    print TestData
 
-    for a,b in zip(MyAnswer, TestData['target']):
-        print a,b
+    # for a,b in zip(MyAnswer, TestData['target']):
+    #     print a,b
 
 
     # olivetti = datasets.fetch_olivetti_faces()
