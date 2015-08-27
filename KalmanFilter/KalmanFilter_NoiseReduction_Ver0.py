@@ -122,7 +122,7 @@ if __name__ == "__main__":
     # Generate Data
     Int_SigLen = 200
     Int_RecordNum = 100
-    Int_KalmanIter = 1
+    Int_KalmanIter = 100
 
     Matrix_Clean = Generate_CleanData(Int_SignalLength= Int_SigLen, Int_NumRecord=Int_RecordNum)
     # print Matrix_Clean.shape
