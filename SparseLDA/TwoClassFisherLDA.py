@@ -17,18 +17,19 @@ class TwoClassFisherLDA:
     def __init__(self, TrainingData):
         self.TrainData = TrainingData
 
-        self.Class1 = np.array(self.TrainData[0]).T
+        self.Class1 = np.array(self.TrainData[0])
         self.Mu1 = np.mean(self.Class1, axis=0)
         self.Mu1 = self.Mu1.reshape(len(self.Mu1), 1)
 
-        self.Class2 = np.array(self.TrainData[1]).T
+        self.Class2 = np.array(self.TrainData[1])
         self.Mu2 = np.mean(self.Class2, axis=0)
         self.Mu2 = self.Mu2.reshape(len(self.Mu2), 1)
 
     def WithInClass(self):
         Result = np.zeros((len(self.Mu1), len(self.Mu1)))
-        for val in self.Class1:
+        for idx, val in enumerate(self.Class2):
             val = val.reshape(len(val),1)
+            # print "Valshape", val.shape
             Result += np.dot((val - self.Mu1), (val - self.Mu1).T)
         for idx, val in enumerate(self.Class2):
             val = val.reshape(len(val),1)
@@ -41,7 +42,10 @@ class TwoClassFisherLDA:
     def ConstructW(self):
         Sw = self.WithInClass()
         SwInv = np.linalg.inv(Sw)
-        return np.dot(SwInv, (self.Mu2 - self.Mu1))
+        w = np.dot(SwInv, (self.Mu2 - self.Mu1))
+        w /= np.sqrt(np.dot(np.dot(np.transpose(w), Sw),w))
+
+        return w
 
 def TrainingData(dim, mu1, mu2, Num):
     np.random.seed(0)

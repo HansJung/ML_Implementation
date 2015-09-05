@@ -167,6 +167,7 @@ if __name__ == "__main__":
 
         plt.figure()
         plt.title("Kalman Practice for Single")
+        plt.plot(VectorClean, 'r', label="Clean")
         plt.plot(VectorObs, 'b', label="Observation")
         # plt.plot(VectorClean,'r', label= "Clean signal")
         plt.plot(Vector_Hat,'g', label= "Kalman")

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e534a6af-32a8-42e6-a396-266f074bfd23" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SparseLDA/Class_SparseLDA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SparseLDA/SparseLDA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SparseLDA/TwoClassFisherLDA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SparseLDA/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py" afterPath="$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KalmanFilter/KalmanFilter_NoiseReduction_Ver0.py" afterPath="$PROJECT_DIR$/KalmanFilter/KalmanFilter_NoiseReduction_Ver0.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SequentialLRT/SequentialHypothesis.py" afterPath="$PROJECT_DIR$/SequentialLRT/SequentialHypothesis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LASSO/LASSO.py" afterPath="$PROJECT_DIR$/LASSO/LASSO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Feature_selection/Fisher_LDA/TwoClassFisherLDA.py" afterPath="$PROJECT_DIR$/Feature_selection/Fisher_LDA/TwoClassFisherLDA.py" />
     </list>
     <ignored path="ML_Implementation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,14 +32,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SequentialHypothesis.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SequentialHypothesis.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SequentialLRT/SequentialHypothesis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4054054" vertical-offset="0" max-vertical-offset="1710">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
               <caret line="10" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
                 <element signature="e#150#168#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparseLDA.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SparseLDA/SparseLDA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="2720">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+              <folding>
+                <element signature="e#116#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class_SparseLDA.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SparseLDA/Class_SparseLDA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoClassFisherLDA.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SparseLDA/TwoClassFisherLDA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="905" max-vertical-offset="1470">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FisherLDA.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2765" max-vertical-offset="3458">
+              <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KalmanFilter_Ver1.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilter_Ver1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1110">
+              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +127,6 @@
         <option value="$PROJECT_DIR$/PDFs/PDF.py" />
         <option value="$PROJECT_DIR$/EM_GMM/EM_GMM.py" />
         <option value="$PROJECT_DIR$/KMeans/HansKMeans.py" />
-        <option value="$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py" />
         <option value="$PROJECT_DIR$/NewtonMethod/Fisher_Score_Computation.py" />
         <option value="$PROJECT_DIR$/NewtonMethod/NewtonMethodBFGS.py" />
         <option value="$PROJECT_DIR$/KalmanFilter/KalmanFilter.py" />
@@ -81,19 +137,22 @@
         <option value="$PROJECT_DIR$/KalmanFilter/KalmanFilterMySimulation.py" />
         <option value="$PROJECT_DIR$/Regression/Example.py" />
         <option value="$PROJECT_DIR$/Regression/Example_LASSO_ElasticNet.py" />
-        <option value="$PROJECT_DIR$/LASSO/LASSO.py" />
         <option value="$PROJECT_DIR$/SVM_Practice/SVM_Practice.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork/NeuralNetwork.py" />
-        <option value="$PROJECT_DIR$/Feature_selection/Fisher_LDA/TwoClassFisherLDA.py" />
         <option value="$PROJECT_DIR$/NeuralNetwork/NeuralNet_PyBrain.py" />
         <option value="$PROJECT_DIR$/SequentialLRT/SequentialLRT.py" />
-        <option value="$PROJECT_DIR$/KalmanFilter/KalmanFilter_NoiseReduction_Ver0.py" />
         <option value="$PROJECT_DIR$/SequentialLRT/SequentialHypothesis.py" />
+        <option value="$PROJECT_DIR$/KalmanFilter/KalmanFilter_NoiseReduction_Ver0.py" />
+        <option value="$PROJECT_DIR$/LASSO/LASSO.py" />
+        <option value="$PROJECT_DIR$/Feature_selection/Fisher_LDA/TwoClassFisherLDA.py" />
+        <option value="$PROJECT_DIR$/SparseLDA/TwoClassFisherLDA.py" />
+        <option value="$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py" />
+        <option value="$PROJECT_DIR$/SparseLDA/SparseLDA.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
+    <option name="x" value="41" />
     <option name="y" value="23" />
     <option name="width" value="1148" />
     <option name="height" value="697" />
@@ -152,6 +211,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SparseLDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="SequentialLRT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -180,7 +253,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="LASSO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="KalmanFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Feature_selection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Feature_selection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fisher_LDA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,6 +324,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SparseLDA" />
       <recent name="$PROJECT_DIR$/NewtonMethod" />
       <recent name="$PROJECT_DIR$/Feature_selection/Fisher_LDA" />
     </key>
@@ -212,25 +332,7 @@
       <recent name="$PROJECT_DIR$/NeuralNetwork" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SequentialHypothesis">
-    <configuration default="false" name="SequentialLRT" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SequentialLRT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SequentialLRT/SequentialLRT.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SparseLDA">
     <configuration default="false" name="SequentialHypothesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,24 +346,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML_Implementation" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SequentialLRT/SequentialHypothesis.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="KalmanFilterMySimulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KalmanFilter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KalmanFilter/KalmanFilterMySimulation.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -285,19 +369,55 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="KalmanFilter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="SparseLDA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KalmanFilter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SparseLDA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KalmanFilter/KalmanFilter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SparseLDA/SparseLDA.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LASSO" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LASSO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LASSO/LASSO.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TwoClassFisherLDA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SparseLDA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SparseLDA/TwoClassFisherLDA.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -425,19 +545,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SequentialLRT" />
-      <item index="1" class="java.lang.String" itemvalue="Python.SequentialHypothesis" />
-      <item index="2" class="java.lang.String" itemvalue="Python.KalmanFilterMySimulation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.KalmanFilter_NoiseReduction_Ver0" />
-      <item index="4" class="java.lang.String" itemvalue="Python.KalmanFilter" />
+      <item index="0" class="java.lang.String" itemvalue="Python.SequentialHypothesis" />
+      <item index="1" class="java.lang.String" itemvalue="Python.KalmanFilter_NoiseReduction_Ver0" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SparseLDA" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LASSO" />
+      <item index="4" class="java.lang.String" itemvalue="Python.TwoClassFisherLDA" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SequentialHypothesis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.KalmanFilter_NoiseReduction_Ver0" />
-        <item index="2" class="java.lang.String" itemvalue="Python.KalmanFilter" />
-        <item index="3" class="java.lang.String" itemvalue="Python.KalmanFilterMySimulation" />
-        <item index="4" class="java.lang.String" itemvalue="Python.SequentialLRT" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SparseLDA" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TwoClassFisherLDA" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LASSO" />
+        <item index="3" class="java.lang.String" itemvalue="Python.KalmanFilter_NoiseReduction_Ver0" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SequentialHypothesis" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +594,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="23" width="1148" height="697" extended-state="6" />
+    <frame x="41" y="23" width="1148" height="697" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,7 +602,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14372823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14372823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -540,34 +660,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linear_Transformation/PCA/PCA_Simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="885">
-          <caret line="32" column="17" selection-start-line="20" selection-start-column="0" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Transformation/PCA/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="735">
-          <caret line="27" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Transformation/PCA/PCA_Simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="885">
-          <caret line="32" column="17" selection-start-line="20" selection-start-column="0" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
@@ -757,20 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilter_Ver1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7857144" vertical-offset="0" max-vertical-offset="1110">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3015">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/optimize/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
@@ -803,13 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35" vertical-offset="2889" max-vertical-offset="3510">
           <caret line="201" column="75" selection-start-line="201" selection-start-column="75" selection-end-line="201" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LASSO/LASSO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -848,20 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/TwoClassFisherLDA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2337" max-vertical-offset="3640">
-          <caret line="130" column="49" selection-start-line="91" selection-start-column="0" selection-end-line="130" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NeuralNetwork/NeuralNet_PyBrain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1365">
@@ -885,21 +942,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilter_Ver1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1110">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilter_NoiseReduction_Ver0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4117647" vertical-offset="1683" max-vertical-offset="2760">
-          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        <state vertical-scroll-proportion="6.647059" vertical-offset="967" max-vertical-offset="3700">
+          <caret line="169" column="47" selection-start-line="169" selection-start-column="47" selection-end-line="169" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SequentialLRT/SequentialHypothesis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4054054" vertical-offset="0" max-vertical-offset="1710">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
           <caret line="10" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
             <element signature="e#150#168#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/sklearn/datasets/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33243242" vertical-offset="5412" max-vertical-offset="7710">
+          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LASSO/LASSO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.047904193" vertical-offset="821" max-vertical-offset="1311">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="e#134#152#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/TwoClassFisherLDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21351351" vertical-offset="319" max-vertical-offset="1410">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3015">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherLDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2765" max-vertical-offset="3458">
+          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparseLDA/TwoClassFisherLDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1454" max-vertical-offset="1862">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparseLDA/SparseLDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="2720">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#116#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparseLDA/Class_SparseLDA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

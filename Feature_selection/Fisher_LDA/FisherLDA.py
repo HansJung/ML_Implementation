@@ -124,8 +124,8 @@ def TestData(dim, mu1, mu2, Num):
 
 if __name__ == "__main__":
     Dim = 10
-    Mu1 = -2
-    Mu2 = 2
+    Mu1 = -1
+    Mu2 = 1
     Num = 40
     MyTest = TestData(Dim,Mu1,Mu2,Num)
     MyTraining = TrainingData(Dim, Mu1, Mu2, Num)

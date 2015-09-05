@@ -43,7 +43,7 @@ if __name__ == "__main__":
     Mat_Coef = Object_Lasso.Construc_Coefficient(Mat_X, Mat_y)
     Mat_yhat = np.dot(Mat_Hat, Mat_y)
 
-    Flt_Lambda = 1
+    Flt_Lambda = 100
     lasso = Lasso(alpha=Flt_Lambda)
     Array_LassoCoef = lasso.fit(Mat_X, Mat_y).coef_
     Array_TrueCoef = Mat_Coef
