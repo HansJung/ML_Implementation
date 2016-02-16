@@ -11,6 +11,7 @@ Comment
 ''' Library '''
 import numpy as np
 from sklearn.linear_model import Lasso
+from sklearn.linear_model import ElasticNet
 from sklearn.datasets import load_boston
 from TwoClassFisherLDA import TwoClassFisherLDA
 import matplotlib.pyplot as plt
@@ -51,6 +52,7 @@ if __name__ == "__main__":
     # print y
 
     Flt_Lambda = 0.3
+    Flt_L1 = 0.7
 
     Dict_Data, Array_Data = Generate_Data(Mu1, Mu2, Dim, ObsNum_Class1, ObsNum_Class2)
     Data1 = Dict_Data[0]
@@ -83,9 +85,11 @@ if __name__ == "__main__":
     for idx in range(50):
         NewResp = np.dot(Y, Theta)
         lasso = Lasso(alpha=Flt_Lambda)
+        elas = ElasticNet(alpha=Flt_Lambda, l1_ratio=Flt_L1)
         #
         # # Compute Coefficient
-        B = lasso.fit(X=Array_Data, y= NewResp).coef_
+        # B = lasso.fit(X=Array_Data, y= NewResp).coef_
+        B = elas.fit(X=Array_Data,y=NewResp).coef_
         # print B
         #
         # New OptScore
