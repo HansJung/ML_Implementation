@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e534a6af-32a8-42e6-a396-266f074bfd23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeepLearning/mnist.pkl.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeepLearning/DeepLearning.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/EMCEE_tutorial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Gibbs_Example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Higdon_limited_experiment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Higdon_limited_experiment[충돌].py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Higdon_unlimited_experiment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KalmanFilter/KF_OnlineLearning.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeepLearning/Logistic_regression.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/MCMC_regression_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/MCMC_regression_example[충돌].py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNetwork/NeuralNetwork_RBF.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Variational_inference/Simple_Gaussian.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeepLearning/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Variational_inference/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/pymc_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/pymc_example_2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SparseLDA/Class_SparseLDA.py" afterPath="$PROJECT_DIR$/SparseLDA/Class_SparseLDA.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SparseLDA/SparseLDA.py" afterPath="$PROJECT_DIR$/SparseLDA/SparseLDA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/160222_pymc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/160222_pymc3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/160223_MCMC_GMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/160223_pymc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_DPMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DMM/DMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DMM/DP_GMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DMM/GMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/MCMC_DMM.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DMM/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/invwishart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DMM/srrs2.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py" afterPath="$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ML_Implementation.iws" />
@@ -46,22 +40,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pymc_example.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCMC/pymc_example.py">
+      <file leaf-file-name="160222_pymc.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/160222_pymc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1245">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2100">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gibbs_Example.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCMC/Gibbs_Example.py">
+      <file leaf-file-name="160223_MCMC_GMM.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/160223_MCMC_GMM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2595">
-              <caret line="17" column="58" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="58" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="160226_Collapsed_gibbs_gmm.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="2490">
+              <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="160226_Collapsed_gibbs_DPMM.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_DPMM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30046225" vertical-offset="0" max-vertical-offset="795">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#159#709#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MCMC_DMM.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/MCMC_DMM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1908">
+              <caret line="42" column="50" selection-start-line="26" selection-start-column="0" selection-end-line="42" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,52 +102,48 @@
       <file leaf-file-name="pymc_example_2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MCMC/pymc_example_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="975">
-              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1020">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PyMC_practice_Gibbs.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py">
+      <file leaf-file-name="MCMC_regression_example[충돌].py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/MCMC_regression_example[충돌].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7635468" vertical-offset="1101" max-vertical-offset="1710">
-              <caret line="87" column="44" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeepLearning.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepLearning/DeepLearning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="825">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simple_Gaussian.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Variational_inference/Simple_Gaussian.py">
+      <file leaf-file-name="Higdon_limited_experiment.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/Higdon_limited_experiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="1290">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <element signature="e#29#47#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="3285">
+              <caret line="198" column="10" selection-start-line="165" selection-start-column="0" selection-end-line="198" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MCMC_regression_example.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MCMC/MCMC_regression_example.py">
+      <file leaf-file-name="pymc3_tutorial2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/pymc3_tutorial2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1455">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="765">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pymc_for_poisson.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MCMC/pymc_for_poisson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="690">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -133,21 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/PCA/PCA.py" />
-        <option value="$PROJECT_DIR$/Fisher_score/Fisher_score_Test.py" />
-        <option value="$PROJECT_DIR$/Fisher_score/Fisher_Score_Computation.py" />
-        <option value="$PROJECT_DIR$/kNN/Hans_kNN.py" />
-        <option value="$PROJECT_DIR$/NaiveBayes/PimaIndian.csv" />
-        <option value="$PROJECT_DIR$/NaiveBayes/NaiveBayes.py" />
-        <option value="$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_Score_Computation.py" />
-        <option value="$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_score_Test.py" />
-        <option value="$PROJECT_DIR$/PDFs/PDF.py" />
-        <option value="$PROJECT_DIR$/EM_GMM/EM_GMM.py" />
-        <option value="$PROJECT_DIR$/KMeans/HansKMeans.py" />
-        <option value="$PROJECT_DIR$/NewtonMethod/Fisher_Score_Computation.py" />
-        <option value="$PROJECT_DIR$/NewtonMethod/NewtonMethodBFGS.py" />
-        <option value="$PROJECT_DIR$/KalmanFilter/KalmanFilter.py" />
-        <option value="$PROJECT_DIR$/KalmanFilter/KalmanFilter_Ver1.py" />
         <option value="$PROJECT_DIR$/Feature_selection/Fisher_LDA/FisherGradientLDA_Ver0.py" />
         <option value="$PROJECT_DIR$/NewtonMethod/NewtonMethodLDA_Ver1.py" />
         <option value="$PROJECT_DIR$/NewtonMethod/NewtonMethodLDA_Ver2.py" />
@@ -183,14 +197,29 @@
         <option value="$PROJECT_DIR$/DeepLearning/Logistic_regression.py" />
         <option value="$PROJECT_DIR$/Variational_inference/Simple_Gaussian.py" />
         <option value="$PROJECT_DIR$/MCMC/pymc_example_2.py" />
+        <option value="$PROJECT_DIR$/MCMC/Practice_pyMC2.py" />
+        <option value="$PROJECT_DIR$/MCMC/pymc3_tutorial2.py" />
+        <option value="$PROJECT_DIR$/MCMC/pymc_for_poisson.py" />
+        <option value="$PROJECT_DIR$/DMM/srrs2.dat" />
+        <option value="$PROJECT_DIR$/DMM/DMM.py" />
         <option value="$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py" />
+        <option value="$PROJECT_DIR$/DMM/DP_GMM.py" />
+        <option value="$PROJECT_DIR$/DMM/GMM.py" />
+        <option value="$PROJECT_DIR$/MCMC/160222_pymc3.py" />
+        <option value="$PROJECT_DIR$/MCMC/160222_pymc.py" />
+        <option value="$PROJECT_DIR$/MCMC/160223_pymc.py" />
+        <option value="$PROJECT_DIR$/MCMC/invwishart.py" />
+        <option value="$PROJECT_DIR$/MCMC/MCMC_DMM.py" />
+        <option value="$PROJECT_DIR$/MCMC/160223_MCMC_GMM.py" />
+        <option value="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py" />
+        <option value="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_DPMM.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1452" />
+    <option name="x" value="1440" />
     <option name="y" value="-18" />
-    <option name="width" value="1908" />
+    <option name="width" value="1918" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -219,6 +248,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,6 +263,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="&lt; Python 2.7.5 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.5 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-skeletons" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PyUserSkeletonsNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -273,9 +321,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collapsed_Gibbs_GMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,6 +351,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jeong-yonghan/Google-drive/3.학교생활/0.My_Research/ML_Study_Implementation/ML_Implementation/MCMC/pymc_for_poisson.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -299,13 +365,14 @@
       <recent name="$PROJECT_DIR$/Feature_selection/Fisher_LDA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DMM" />
       <recent name="$PROJECT_DIR$/DeepLearning" />
       <recent name="$PROJECT_DIR$/MCMC" />
       <recent name="$PROJECT_DIR$/NeuralNetwork" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PyMC_practice_Gibbs">
-    <configuration default="false" name="pymc_example_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.160226_Collapsed_gibbs_gmm">
+    <configuration default="false" name="160222_pymc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -317,69 +384,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/pymc_example_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/160222_pymc.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="DeepLearning" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/DeepLearning.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/Logistic_regression.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Simple_Gaussian" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Variational_inference" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variational_inference/Simple_Gaussian.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PyMC_practice_Gibbs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="160223_pymc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -391,7 +402,61 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML_Implementation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/160223_pymc.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="160223_MCMC_GMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MCMC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/160223_MCMC_GMM.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MCMC_DMM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MCMC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/MCMC_DMM.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="160226_Collapsed_gibbs_gmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML_Implementation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -519,19 +584,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pymc_example_2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.DeepLearning" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Logistic_regression" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Simple_Gaussian" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PyMC_practice_Gibbs" />
+      <item index="0" class="java.lang.String" itemvalue="Python.160222_pymc" />
+      <item index="1" class="java.lang.String" itemvalue="Python.160223_pymc" />
+      <item index="2" class="java.lang.String" itemvalue="Python.160223_MCMC_GMM" />
+      <item index="3" class="java.lang.String" itemvalue="Python.MCMC_DMM" />
+      <item index="4" class="java.lang.String" itemvalue="Python.160226_Collapsed_gibbs_gmm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PyMC_practice_Gibbs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pymc_example_2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Simple_Gaussian" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Logistic_regression" />
-        <item index="4" class="java.lang.String" itemvalue="Python.DeepLearning" />
+        <item index="0" class="java.lang.String" itemvalue="Python.160226_Collapsed_gibbs_gmm" />
+        <item index="1" class="java.lang.String" itemvalue="Python.160223_MCMC_GMM" />
+        <item index="2" class="java.lang.String" itemvalue="Python.MCMC_DMM" />
+        <item index="3" class="java.lang.String" itemvalue="Python.160223_pymc" />
+        <item index="4" class="java.lang.String" itemvalue="Python.160222_pymc" />
       </list>
     </recent_temporary>
   </component>
@@ -568,18 +633,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1452" y="-18" width="1908" height="1057" extended-state="6" />
+    <frame x="1440" y="-18" width="1918" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2033543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23096976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33783785" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33783785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3841642" sideWeight="0.18174475" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27234927" sideWeight="0.8174475" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -595,18 +660,18 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986711" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3841642" sideWeight="0.18174475" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24819495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33887044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23909532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3841642" sideWeight="0.8174475" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -634,132 +699,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NewtonMethod/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="334">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Transformation/PCA/PCA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="27" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Transformation/PCA/PCA_Simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1026">
-          <caret line="32" column="17" selection-start-line="20" selection-start-column="0" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewtonMethod/Fisher_Score_Computation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1920">
-          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_LDA/Fisher_Score_Computation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1440">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/optimize/optimize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4412" max-vertical-offset="48165">
-          <caret line="285" column="4" selection-start-line="285" selection-start-column="4" selection-end-line="285" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/optimize/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewtonMethod/NewtonMethodLDA_Ver1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45833334" vertical-offset="0" max-vertical-offset="4995">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewtonMethod/NewtonMethodBFGS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="6120">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/sklearn/linear_model/coordinate_descent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5790884" vertical-offset="9821" max-vertical-offset="29790">
-          <caret line="714" column="6" selection-start-line="714" selection-start-column="6" selection-end-line="714" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewtonMethod/NewtonMethodLDA_Ver2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35" vertical-offset="2889" max-vertical-offset="3510">
-          <caret line="201" column="75" selection-start-line="201" selection-start-column="75" selection-end-line="201" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regression/Example_LASSO_ElasticNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1280">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_score_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feature_selection/Fisher_score/Fisher_Score_Computation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65909094" vertical-offset="1059" max-vertical-offset="1455">
-          <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM_Practice/SVM_Practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="880">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuralNetwork/NeuralNet_PyBrain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="1365">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilterMySimulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6078432" vertical-offset="784" max-vertical-offset="1785">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.436975" vertical-offset="504" max-vertical-offset="2775">
-          <caret line="166" column="41" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KalmanFilter/KalmanFilter_NoiseReduction_Ver0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.647059" vertical-offset="967" max-vertical-offset="3700">
@@ -890,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325" vertical-offset="13517" max-vertical-offset="77385">
           <caret line="910" column="7" selection-start-line="910" selection-start-column="7" selection-end-line="910" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,13 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0425" vertical-offset="323" max-vertical-offset="1520">
           <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCMC/Higdon_limited_experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7635468" vertical-offset="1866" max-vertical-offset="3255">
-          <caret line="198" column="10" selection-start-line="165" selection-start-column="0" selection-end-line="198" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -929,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MCMC/pymc_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="1660">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/Logistic_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.2988505" vertical-offset="0" max-vertical-offset="10604">
@@ -948,15 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MCMC/MCMC_regression_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1746">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,42 +878,201 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6781609" vertical-offset="2422" max-vertical-offset="30030">
           <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Variational_inference/Simple_Gaussian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="1290">
+        <state vertical-scroll-proportion="0.58128077" vertical-offset="516" max-vertical-offset="1260">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#29#47#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/pymc3/sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327645" vertical-offset="555" max-vertical-offset="5145">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMM/srrs2.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="327.0563" vertical-offset="0" max-vertical-offset="191745">
+          <caret line="12777" column="127" selection-start-line="12777" selection-start-column="127" selection-end-line="12777" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/MCMC_regression_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06403941" vertical-offset="876" max-vertical-offset="1485">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMM/DP_GMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6009852" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMM/DMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.1231527" vertical-offset="0" max-vertical-offset="3510">
+          <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DMM/GMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0714285" vertical-offset="60" max-vertical-offset="1020">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/pymc_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15306123" vertical-offset="16" max-vertical-offset="1411">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06760204" vertical-offset="217" max-vertical-offset="1590">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/pymc3_tutorial2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="690">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MCMC/Gibbs_Example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="2595">
+        <state vertical-scroll-proportion="-4.938619" vertical-offset="2156" max-vertical-offset="2595">
           <caret line="17" column="58" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/MCMC_regression_example[충돌].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MCMC/pymc_example_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="975">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="975">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MCMC/PyMC_practice_Gibbs.py">
+    <entry file="file://$PROJECT_DIR$/MCMC/160222_pymc3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7635468" vertical-offset="1101" max-vertical-offset="1710">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="44" />
+        <state vertical-scroll-proportion="2.25" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="67" column="60" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/Practice_pyMC2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7849057" vertical-offset="682" max-vertical-offset="1178">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/Higdon_limited_experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1866" max-vertical-offset="3255">
+          <caret line="198" column="10" selection-start-line="165" selection-start-column="0" selection-end-line="198" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/160222_pymc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/160223_pymc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97590363" vertical-offset="0" max-vertical-offset="885">
+          <caret line="27" column="108" selection-start-line="27" selection-start-column="108" selection-end-line="27" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/pymc_for_poisson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/invwishart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29017857" vertical-offset="0" max-vertical-offset="672">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/scipy/stats/_multivariate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33281973" vertical-offset="7164" max-vertical-offset="39660">
+          <caret line="498" column="0" selection-start-line="498" selection-start-column="0" selection-end-line="498" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/160223_MCMC_GMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
-            <element signature="e#0#74#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1780" max-vertical-offset="3320">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/MCMC_DMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1908">
+          <caret line="42" column="50" selection-start-line="26" selection-start-column="0" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_DPMM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30046225" vertical-offset="0" max-vertical-offset="795">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#159#709#0" expanded="false" />
           </folding>
         </state>
       </provider>
