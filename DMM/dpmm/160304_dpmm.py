@@ -47,23 +47,6 @@ def chinese_restaurant_process(n, alpha):
             table_assignments[c] = np.random.choice(range(next_table), p=probs)
     return np.array(table_assignments,dtype='int'), next_table
 
-def Likelihood(yi, Param_mean, Param_cov, K_, alpha, Nic_dict):
-    LL = dict()
-    Prob_list = list()
-    for idx,key in enumerate(sorted(Param_mean)):
-        Prob_list = Nic_dict[key]*multivariate_normal.pdf(x=yi, mean=Param_mean[key], cov=Param_cov[key])
-    Prob_list = [x / np.sum(Prob_list) for x in Prob_list]
-
-
-def Posterior_update_by_sample(yi, ci, Mean, Cov):
-    mu0 = Mean
-    k0 = 0.1
-    n = 1
-    kn = k0 + n
-    ybar = yi
-
-    mu_n = (k0/kn) * mu0 + (k0/kn)*ybar
-    return mu_n
 
 
 

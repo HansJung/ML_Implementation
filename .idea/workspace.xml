@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e534a6af-32a8-42e6-a396-266f074bfd23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/dpmm/160304_dpmm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MCMC/dpmm/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/DMM.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/DP_GMM.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/GMM.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/assignements8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/clusterMean0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/clusterMean1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/cov0_0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/cov0_1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/cov1_0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/cov1_1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/mu0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/phi_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/sigma0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/srrs2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/tau_0_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DMM/tau_1_1.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MCMC/dpmm/160304_dpmm.py" afterPath="$PROJECT_DIR$/DMM/dpmm/160304_dpmm.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MCMC/dpmm/__init__.py" afterPath="$PROJECT_DIR$/DMM/dpmm/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_DPMM.py" afterPath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_DPMM.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py" afterPath="$PROJECT_DIR$/MCMC/Collapsed_Gibbs_GMM/160226_Collapsed_gibbs_gmm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -60,10 +84,10 @@
         </entry>
       </file>
       <file leaf-file-name="160304_dpmm.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MCMC/dpmm/160304_dpmm.py">
+        <entry file="file://$PROJECT_DIR$/DMM/dpmm/160304_dpmm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7240356" vertical-offset="2495" max-vertical-offset="4123">
-              <caret line="157" column="47" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.52401745" vertical-offset="0" max-vertical-offset="3600">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -252,7 +276,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MCMC" />
+              <option name="myItemId" value="DMM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML_Implementation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DMM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -800,38 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DMM/srrs2.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="327.0563" vertical-offset="0" max-vertical-offset="191745">
-          <caret line="12777" column="127" selection-start-line="12777" selection-start-column="127" selection-end-line="12777" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MCMC/MCMC_regression_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06403941" vertical-offset="876" max-vertical-offset="1485">
           <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMM/DP_GMM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6009852" vertical-offset="0" max-vertical-offset="1185">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMM/DMM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.1231527" vertical-offset="0" max-vertical-offset="3510">
-          <caret line="104" column="27" selection-start-line="104" selection-start-column="27" selection-end-line="104" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DMM/GMM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0714285" vertical-offset="60" max-vertical-offset="1020">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -978,10 +988,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MCMC/dpmm/160304_dpmm.py">
+    <entry file="file://$PROJECT_DIR$/DMM/dpmm/160304_dpmm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7240356" vertical-offset="2495" max-vertical-offset="4123">
-          <caret line="157" column="47" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.52401745" vertical-offset="0" max-vertical-offset="3600">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
