@@ -105,7 +105,7 @@ if __name__ == '__main__':
     Cl = dict()
     # np.random.seed(123456)
 
-    iterNum = 100
+    iterNum = 500
     for iterIdx in range(iterNum):
         print iterIdx
         per_idx = np.random.permutation(range(N))
