@@ -55,8 +55,8 @@ def chinese_restaurant_process(n, alpha):
 ############################################################################################
 if __name__ == '__main__':
     ''' Data generation '''
-    K = 4
-    N = 500
+    K = 6
+    N = 600
     dim = 2
     X,Z = Make_GMM_data(K,dim,N)
 
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
     ''' Initialization '''
     # Initial giving class assignment by CRP
-    alpha = 1.
+    alpha = 10.
     Table_assignment, K_ = chinese_restaurant_process(N,alpha)
     Nic = [(Table_assignment == i).sum() for i in range(K_)]
 
@@ -95,8 +95,8 @@ if __name__ == '__main__':
 
 
     MCMC_iterNum = 300
+    Total_iter = 10
 
-    Total_iter = 20
     for total_iter in range(Total_iter):
         print "Proceeding...",total_iter+1,"/",Total_iter
         Permutation= np.random.permutation(range(N))
@@ -173,8 +173,8 @@ if __name__ == '__main__':
     Intensity_list = np.array(Intensity_list)
 
     # plt.figure()
-    sns.jointplot(x=X[:,0],y=X[:,1],data=Intensity_list, kind="kde")
-
+    # sns.jointplot(x=X[:,0],y=X[:,1],data=Intensity_list, kind="kde")
+    sns.jointplot(x=X[:,0],y=X[:,1],data=Intensity_list, color="k").plot_joint(sns.kdeplot,zorder=0,n_level=5)
 
 
 
